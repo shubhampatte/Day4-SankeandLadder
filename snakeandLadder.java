@@ -9,7 +9,12 @@ public class snakeandLadder
 
 		int startPosition = 0;
 		System.out.println("Starting position of player : " +startPosition);
-	
+		
+		int winPosition = 100;
+		
+		while(startPosition <= winPosition)
+		{
+		
 		int choice = (int) (Math.random()*3)+1;
 		System.out.println("Player choice :" +choice);
 		
@@ -58,6 +63,8 @@ public class snakeandLadder
 			
 			
 		}	
+		
+		}
 		
 		
 		
