@@ -3,7 +3,10 @@ public class snakeandLadder
 	public static void main(String args[])
 	{
 
-		System.out.println("WELCOME to Snake Ladder GAME");
+		int startPosition = 0;
+		System.out.println("Starting position of player : " +startPosition);
+			
+		
+		
 	}
-
 }
